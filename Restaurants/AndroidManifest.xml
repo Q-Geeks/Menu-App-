@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artech.restaurants"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- All Restaurants Activity -->
+        <activity
+            android:name=".AllRestaurantsActivity"
+            android:label="All Restaurants" >
+        </activity>
+ 
+        <!-- Add Restaurants Activity -->
+        <activity
+            android:name=".NewRestaurantActivity"
+            android:label="Add New Restaurants" >
+        </activity>
+ 
+        <!-- Edit Restaurants Activity -->
+        <activity
+            android:name=".EditRestaurantActivity"
+            android:label="Edit Restaurants" >
+        </activity>
+        
+        
+    </application>
+
+    
+    
+</manifest>

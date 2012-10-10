@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Restaurants</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_screen">Restaurants</string>
+    <string name="AddRestaurants">Add New Restaurants</string>
+    <string name="ViewRestaurants">View All Restaurants</string>
+    
+
+</resources>
